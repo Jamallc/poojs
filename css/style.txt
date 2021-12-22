@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'roboto', 'Nunito Sans', sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: blueviolet;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+main {
+  padding: 30px 50px;
+  margin-bottom: 10rem;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.lineInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: 0;
+  font-weight: 600;
+}
+
+.desativado {
+  background-color: rgb(238, 238, 238);
+}
+
+button {
+  border: 0;
+  padding: 10px 20px;
+  outline: 0;
+  background-color: blueviolet;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(109, 17, 196)
+}
+
+.content {
+  margin-top: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+table th {
+  background-color: rgb(231, 231, 231);
+}
+
+table td {
+  text-align: center;
+}
+
+.edit {
+  color: #1d9e62;
+  height: 22px;
+  cursor: pointer;
+  margin-right: .5rem;
+  transition: all .3s linear;
+}
+
+.edit:hover {
+  color: #0d7a47;
+}
+
+.trash {
+  color: #f34254;
+  height: 22px;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.trash:hover {
+  color: rgb(221, 48, 65);
+}
+
+#carros {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-bottom: 3rem;
+}
+
+.carro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 2rem;
+  
+  transition: all .3s ease;
+
+  cursor: pointer;
+}
+
+.carro:hover {
+  margin-top: -10px;
+  font-size: large;
+}
+
+.carro img {
+  width: 230px;
+}
+
+.carro p {
+  font-weight: 700;
+}
+
+.optionParcela {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: 0;
+}
